@@ -11,7 +11,7 @@ const devConfig = {
     devServer: {
         port: 8082,
         historyApiFallback: {
-            index: 'http://localhost:8082/index.html'
+            index: 'http://localhost:8082/auth/latest/index.html'
         }
     },
     plugins: [
